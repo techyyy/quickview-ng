@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+video {
+  margin: 0;
+}
+
+.video-local {
+  background: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.video-remote {
+  background: black;
+  width: 900px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p.video-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+button {
+  margin: 1em;
+}
+
+.remote {
+  margin: auto;
+  width: 100%;
+}
+
+.local {
+  margin:auto;
+  width: 35%;
+  padding: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-dark {
+  border:solid 2px black;
+  background: transparent;
+  color: black;
+}
+.btn-dark:hover,
+.btn-dark.active{
+  border:solid 2px black;
+  background: black;
+  color: #fff;
+}
+
+textarea {
+  display: block;
+  box-sizing: border-box;
+  width:100%;
+  color: white;
+  resize: none;
+  overflow-y: hidden;
+  outline: 10px;
+  background: black;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
